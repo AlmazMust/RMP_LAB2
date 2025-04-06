@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите сообщение"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnToSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Открыть второй фрагмент" />
+
+        <Button
+            android:id="@+id/btnToActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Открыть активити"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</FrameLayout>
+
